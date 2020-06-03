@@ -44,13 +44,13 @@
             this.txtMD5.Location = new System.Drawing.Point(12, 31);
             this.txtMD5.Name = "txtMD5";
             this.txtMD5.ReadOnly = true;
-            this.txtMD5.Size = new System.Drawing.Size(460, 26);
+            this.txtMD5.Size = new System.Drawing.Size(467, 26);
             this.txtMD5.TabIndex = 0;
             // 
             // lblMD5
             // 
             this.lblMD5.AutoSize = true;
-            this.lblMD5.Location = new System.Drawing.Point(12, 9);
+            this.lblMD5.Location = new System.Drawing.Point(8, 9);
             this.lblMD5.Name = "lblMD5";
             this.lblMD5.Size = new System.Drawing.Size(40, 19);
             this.lblMD5.TabIndex = 1;
@@ -59,7 +59,7 @@
             // lblSHA1
             // 
             this.lblSHA1.AutoSize = true;
-            this.lblSHA1.Location = new System.Drawing.Point(12, 70);
+            this.lblSHA1.Location = new System.Drawing.Point(8, 70);
             this.lblSHA1.Name = "lblSHA1";
             this.lblSHA1.Size = new System.Drawing.Size(43, 19);
             this.lblSHA1.TabIndex = 3;
@@ -72,13 +72,13 @@
             this.txtSHA1.Location = new System.Drawing.Point(12, 92);
             this.txtSHA1.Name = "txtSHA1";
             this.txtSHA1.ReadOnly = true;
-            this.txtSHA1.Size = new System.Drawing.Size(460, 26);
+            this.txtSHA1.Size = new System.Drawing.Size(467, 26);
             this.txtSHA1.TabIndex = 2;
             // 
             // lblSHA256
             // 
             this.lblSHA256.AutoSize = true;
-            this.lblSHA256.Location = new System.Drawing.Point(12, 137);
+            this.lblSHA256.Location = new System.Drawing.Point(8, 133);
             this.lblSHA256.Name = "lblSHA256";
             this.lblSHA256.Size = new System.Drawing.Size(59, 19);
             this.lblSHA256.TabIndex = 5;
@@ -89,10 +89,10 @@
             this.txtSHA256.BackColor = System.Drawing.Color.White;
             this.txtSHA256.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSHA256.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSHA256.Location = new System.Drawing.Point(12, 159);
+            this.txtSHA256.Location = new System.Drawing.Point(12, 155);
             this.txtSHA256.Name = "txtSHA256";
             this.txtSHA256.ReadOnly = true;
-            this.txtSHA256.Size = new System.Drawing.Size(460, 26);
+            this.txtSHA256.Size = new System.Drawing.Size(467, 26);
             this.txtSHA256.TabIndex = 4;
             // 
             // frmHashMe
@@ -101,7 +101,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(484, 201);
+            this.ClientSize = new System.Drawing.Size(491, 196);
             this.Controls.Add(this.lblSHA256);
             this.Controls.Add(this.txtSHA256);
             this.Controls.Add(this.lblSHA1);

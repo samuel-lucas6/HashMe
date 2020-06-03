@@ -1,6 +1,7 @@
 D:\Documents\Programming\HashMe\HashMe\bin\Release\HashMe.exe.config
 D:\Documents\Programming\HashMe\HashMe\bin\Release\HashMe.exe
 D:\Documents\Programming\HashMe\HashMe\bin\Release\HashMe.pdb
+D:\Documents\Programming\HashMe\HashMe\obj\Release\HashMe.csprojAssemblyReference.cache
 D:\Documents\Programming\HashMe\HashMe\obj\Release\HashMe.frmHashMe.resources
 D:\Documents\Programming\HashMe\HashMe\obj\Release\HashMe.Properties.Resources.resources
 D:\Documents\Programming\HashMe\HashMe\obj\Release\HashMe.csproj.GenerateResource.cache
