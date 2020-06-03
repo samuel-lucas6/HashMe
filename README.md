@@ -8,10 +8,10 @@ Drag and drop files onto HashMe to retrieve the file's MD5, SHA1, and SHA256 for
 Compatible with Windows. Requires .NET Framework 4.8.
 
 ## Integrity
-Clipboard Clear Setup.exe
-- MD5: 87ec9185b436a3a85fe49e0a57c25060
-- SHA1: 723b46cee976920e37f69e864cc9997cf022fa95
-- SHA256: 67d078454b2aade0d178313098a3f387dabff1bbe3a767af9a7c73b99461ef6a
+HashMe.exe
+- MD5: 53f2dd56de954c41395c5ca95210d70e
+- SHA1: 10565370bfba8a5d1beab28276b1e9591fa293b5
+- SHA256: 2eb7b725c8d42ebfbdc202e4e7495129652ac8692c1bf0f05c671a645d5d01c7
 
 
 
