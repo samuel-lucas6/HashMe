@@ -1,6 +1,6 @@
 [![Download HashMe](https://img.shields.io/sourceforge/dt/hash-me.svg)](https://sourceforge.net/projects/hash-me/files/latest/download)
 # HashMe
-Retrieve MD5, SHA1, and SHA256 hashes for files.
+Drag and drop files onto HashMe to retrieve the file's MD5, SHA1, and SHA256 for integrity checks. 
 
 ## Download 
 [![Download HashMe](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/hash-me/files/latest/download)
