@@ -35,17 +35,20 @@
             this.txtSHA1 = new System.Windows.Forms.TextBox();
             this.lblSHA256 = new System.Windows.Forms.Label();
             this.txtSHA256 = new System.Windows.Forms.TextBox();
+            this.bgwHashing = new System.ComponentModel.BackgroundWorker();
             this.SuspendLayout();
             // 
             // txtMD5
             // 
             this.txtMD5.BackColor = System.Drawing.Color.White;
+            this.txtMD5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtMD5.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMD5.Location = new System.Drawing.Point(12, 31);
             this.txtMD5.Name = "txtMD5";
             this.txtMD5.ReadOnly = true;
             this.txtMD5.Size = new System.Drawing.Size(467, 26);
             this.txtMD5.TabIndex = 0;
+            this.txtMD5.TabStop = false;
             // 
             // lblMD5
             // 
@@ -68,12 +71,15 @@
             // txtSHA1
             // 
             this.txtSHA1.BackColor = System.Drawing.Color.White;
+            this.txtSHA1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSHA1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSHA1.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSHA1.Location = new System.Drawing.Point(12, 92);
             this.txtSHA1.Name = "txtSHA1";
             this.txtSHA1.ReadOnly = true;
             this.txtSHA1.Size = new System.Drawing.Size(467, 26);
-            this.txtSHA1.TabIndex = 2;
+            this.txtSHA1.TabIndex = 1;
+            this.txtSHA1.TabStop = false;
             // 
             // lblSHA256
             // 
@@ -87,13 +93,20 @@
             // txtSHA256
             // 
             this.txtSHA256.BackColor = System.Drawing.Color.White;
+            this.txtSHA256.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSHA256.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSHA256.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSHA256.Location = new System.Drawing.Point(12, 155);
             this.txtSHA256.Name = "txtSHA256";
             this.txtSHA256.ReadOnly = true;
             this.txtSHA256.Size = new System.Drawing.Size(467, 26);
-            this.txtSHA256.TabIndex = 4;
+            this.txtSHA256.TabIndex = 2;
+            this.txtSHA256.TabStop = false;
+            // 
+            // bgwHashing
+            // 
+            this.bgwHashing.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgwHashing_DoWork);
+            this.bgwHashing.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgwHashing_RunWorkerCompleted);
             // 
             // frmHashMe
             // 
@@ -130,6 +143,7 @@
         private System.Windows.Forms.TextBox txtSHA1;
         private System.Windows.Forms.Label lblSHA256;
         private System.Windows.Forms.TextBox txtSHA256;
+        private System.ComponentModel.BackgroundWorker bgwHashing;
     }
 }
 
