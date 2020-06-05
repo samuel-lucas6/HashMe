@@ -66,11 +66,9 @@ namespace HashMe
 
         private void bgwHashing_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-            string hashes = e.Result.ToString();
-            string[] splitHashes = hashes.Split(',');
-            splitHashes[0] = splitHashes[0].TrimStart('(');
-            splitHashes[2] = splitHashes[2].TrimEnd(')');
-            displayHashes(splitHashes[0], splitHashes[1], splitHashes[2]);
+            string hashes = e.Result.ToString().TrimStart('(').TrimEnd(')');
+            string[] hashArray = hashes.Split(new[] {',', ' '}, StringSplitOptions.RemoveEmptyEntries);
+            displayHashes(hashArray[0], hashArray[1], hashArray[2]);
         }
 
         private static (string, string, string) getHashes(string filePath)
@@ -104,16 +102,18 @@ namespace HashMe
             if (!string.IsNullOrEmpty(md5))
             {
                 txtMD5.Text = md5.ToLower();
+                txtMD5.SelectionStart = txtMD5.Text.Length;
             }
             if (!string.IsNullOrEmpty(sha1))
             {
                 txtSHA1.Text = sha1.ToLower();
+                txtSHA1.SelectionStart = txtSHA1.Text.Length;
             }
             if (!string.IsNullOrEmpty(sha256))
             {
                 txtSHA256.Text = sha256.ToLower();
+                txtSHA256.SelectionStart = txtSHA256.Text.Length;
             }
-            txtMD5.SelectionStart = txtMD5.Text.Length;
         }
     }
 }
