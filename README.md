@@ -9,9 +9,9 @@ Compatible with Windows. Requires .NET Framework 4.8.
 
 ## Integrity
 HashMe.exe
-- MD5: 53f2dd56de954c41395c5ca95210d70e
-- SHA1: 10565370bfba8a5d1beab28276b1e9591fa293b5
-- SHA256: 2eb7b725c8d42ebfbdc202e4e7495129652ac8692c1bf0f05c671a645d5d01c7
+- MD5: ede61948ffeacc200efb4bcae3e853d4
+- SHA1: b8478d9423974be7e2f64b27fa7aa5ecc6afbbf1
+- SHA256: 0ee1e61dd0cb1f2046e6afbb5929e7230f2552d927ff3ffb7f9e7c05dcd9a298
 
 
 
