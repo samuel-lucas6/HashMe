@@ -5,7 +5,10 @@ Drag and drop files onto HashMe to retrieve the file's MD5, SHA1, and SHA256 for
 ## Download 
 [![Download HashMe](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/hash-me/files/latest/download)
 
-Compatible with Windows. Requires .NET Framework 4.8.
+Compatible with Windows, Linux, and macOS. 
+
+Requires [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/net48) on Windows. 
+Requires [Mono](https://www.mono-project.com/download/stable/) on Linux & macOS.
 
 ## Integrity
 HashMe.exe
