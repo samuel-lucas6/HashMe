@@ -12,9 +12,9 @@ Requires [Mono](https://www.mono-project.com/download/stable/) on Linux & macOS.
 
 ## Integrity
 HashMe.exe
-- MD5: 5409726b0020f721fd74af52959338ae
-- SHA1: 96a1bfe13d54ccbc5041ece2e24f80d70c04899b
-- SHA256: c4a1446c0131276f9812df74cb05ae17261ea49852187bb3ccca754367f8f13b
+- MD5: 3dacd7110bbde17a1877b5ff5cf183f0
+- SHA1: a4fd4e56ed36e98cf6933e9b0291542a6bb3dc2e
+- SHA256: 974fac4544deaf52e89218b885d9113d701341beba0d9a4b17201a8cf2fdac60
 
 
 
