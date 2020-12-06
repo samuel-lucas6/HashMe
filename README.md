@@ -2,6 +2,8 @@
 # HashMe
 Drag and drop files onto HashMe to retrieve the file's MD5, SHA1, and SHA256 for integrity checks.
 
+**Note: HashMe has been replaced by [Milva](https://github.com/samuel-lucas6/Milva/), which is a cross-platform command line tool.**
+
 ## Download 
 [![Download HashMe](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/hash-me/files/latest/download)
 
